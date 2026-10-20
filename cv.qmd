@@ -5,7 +5,7 @@ format:
     papersize: a4
     margin:
       x: 1.8cm
-      y: 1.3cm
+      y: 1.1cm
     mainfont: "Calibri"
     fontsize: 10pt
     output-file: CV_Joaquin_Galdames.pdf
