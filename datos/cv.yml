@@ -16,8 +16,8 @@ perfil: >-
   Sociólogo y Magíster en Métodos para la Investigación Social, con más de diez años
   de experiencia en investigación social y cinco en producción estadística oficial
   en el Instituto Nacional de Estadísticas (INE). He participado en tres operaciones
-  estadísticas nacionales —la II Encuesta Nacional sobre Uso del Tiempo, el Censo de
-  Población y Vivienda 2024 y la Encuesta de Microemprendimiento— en programación de
+  estadísticas nacionales —II ENUT, Censo de Población y Vivienda 2024 y VIII EME—
+  en programación de
   cuestionarios en Survey Solutions, validación y control de calidad de datos,
   construcción de bases e indicadores y elaboración de documentos técnicos.
   Antes trabajé en consultoras de estudios de opinión y de mercado. Trabajo
@@ -28,9 +28,9 @@ experiencia:
     cargo: "Analista Socioeconómico, Encuesta de Microemprendimiento (EME)"
     organizacion: "Instituto Nacional de Estadísticas (INE)"
     tareas:
-      - "Analizo, valido y aseguro la calidad de los datos de la EME."
-      - "Elaboro análisis estadísticos y documentos técnicos sobre las dinámicas del microemprendimiento en Chile, a partir de la EME 2025."
-      - "Contribuyo a la mejora continua del instrumento estadístico."
+      - "Analizo, valido y aseguro la calidad de los datos de la VIII EME."
+      - "Elaboro análisis estadísticos y documentos técnicos sobre las dinámicas del microemprendimiento en Chile, a partir de la VIII EME (2025)."
+      - "Participo en la preparación de la IX EME, contribuyendo a la mejora continua del instrumento."
 
   - fecha: "Marzo 2025 – Octubre 2025"
     cargo: "Analista Metodológico Senior, Censo de Población y Vivienda 2024 (destinación)"
@@ -41,7 +41,7 @@ experiencia:
       - "Apoyé los procesos de codificación automática de variables de ocupación."
 
   - fecha: "Octubre 2021 – Marzo 2025"
-    cargo: "Analista Socioeconómico, II Encuesta Nacional sobre Uso del Tiempo (ENUT)"
+    cargo: "Analista Socioeconómico, II Encuesta Nacional sobre Uso del Tiempo (II ENUT)"
     organizacion: "Instituto Nacional de Estadísticas (INE)"
     tareas:
       - "Programé el cuestionario en Survey Solutions e hice el seguimiento operativo del levantamiento."
