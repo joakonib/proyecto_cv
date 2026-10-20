@@ -6,6 +6,7 @@ CV de Joaquín Galdames generado con Quarto + Typst.
 - `cv.qmd`: diseño. Lee el YAML y arma el PDF.
 - `CV_Joaquin_Galdames.pdf`: resultado.
 - `MEJORAS.md`: propuestas para el CV y la búsqueda de trabajo.
+- `input/`: CV original en Word, usado como referencia para el contenido.
 
 ## Generar el PDF
 

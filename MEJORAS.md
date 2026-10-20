@@ -12,6 +12,8 @@
 - **Nombre de cada encuesta en el título del cargo** (EME, Censo 2024, ENUT): son las palabras clave que buscan los filtros.
 - **Perfil reescrito con hechos concretos**: años de experiencia, las tres operaciones estadísticas y tus herramientas, en vez de frases genéricas.
 - **Archivo `CV_Joaquin_Galdames.pdf`**: es el nombre que ve quien lo descarga.
+- **Experiencia 2014–2019 compacta** ("Experiencia previa", una línea por cargo) y educación en una línea por título: el CV cabe en una página y el INE ocupa la mitad.
+- **Cargos del INE con el mismo peso visual** que un trabajo completo, bajo un encabezado de institución destacado.
 
 ## Cosas que te propongo cambiar (necesitan tu decisión o datos que solo tú tienes)
 
@@ -24,9 +26,8 @@
 2. **Agregar ciudad** ("Santiago, Chile") en el encabezado: muchos filtros de ATS usan la ubicación.
 3. **Publicaciones con enlace.** Los documentos técnicos del INE (EME 2025, ENUT, Censo) son públicos: una sección "Publicaciones seleccionadas" es evidencia concreta.
 4. **Tesis de magíster** (título y método) y **docencia/ayudantías**, si las tienes.
-5. **Resumir la experiencia 2014–2017** a una línea por cargo, para que el CV quepa en una página y media y el foco quede en el INE.
-6. **Certificar el inglés** (TOEFL, IELTS o Cambridge) si apuntas a organismos internacionales.
-7. **Tener también una versión .docx**: algunos portales (y Trabajando.com / Laborum) leen mejor Word que PDF. Se puede generar desde el mismo `datos/cv.yml`.
+5. **Certificar el inglés** (TOEFL, IELTS o Cambridge) si apuntas a organismos internacionales.
+6. **Tener también una versión .docx**: algunos portales (y Trabajando.com / Laborum) leen mejor Word que PDF. Se puede generar desde el mismo `datos/cv.yml`.
 
 ## Ideas para la búsqueda de trabajo
 

@@ -4,10 +4,10 @@ format:
   typst:
     papersize: a4
     margin:
-      x: 2cm
-      y: 1.7cm
+      x: 1.8cm
+      y: 1.3cm
     mainfont: "Calibri"
-    fontsize: 10.5pt
+    fontsize: 10pt
     output-file: CV_Joaquin_Galdames.pdf
 execute:
   echo: false
@@ -33,7 +33,7 @@ execute:
 #show link: set text(fill: tinta)
 
 #let seccion(titulo) = {
-  v(12pt)
+  v(9pt)
   block(below: 8pt, {
     text(11pt, weight: "bold", tracking: 0.04em, upper(titulo))
     v(-5pt)
@@ -60,17 +60,24 @@ execute:
 })
 
 // Varios cargos en una misma institución
-#let empleador(nombre, fechas) = block(below: 7pt, {
-  text(weight: "bold", nombre)
-  linebreak()
-  text(fill: gris, fechas)
+#let empleador(nombre, fechas) = block(below: 9pt, {
+  text(11.5pt, weight: "bold", nombre)
+  text(fill: gris, [ | #box(fechas)])
 })
 
-#let cargo(fecha, titulo, tareas: (), software: none) = block(breakable: false, below: 9pt, inset: (left: 0.9em), {
-  text(weight: "bold", style: "italic", titulo)
+#let cargo(fecha, titulo, tareas: (), software: none) = block(breakable: false, below: 11pt, {
+  text(weight: "bold", titulo)
   linebreak()
   text(fill: gris, fecha)
   detalle(tareas, software)
+})
+
+// Cargo anterior en formato compacto: título y resumen de una línea
+#let previa(fecha, titulo, lugar, resumen) = block(breakable: false, below: 5pt, {
+  text(weight: "bold", titulo)
+  text(fill: gris, [, #lugar | #box(fecha)])
+  linebreak()
+  resumen
 })
 ```
 
@@ -116,9 +123,15 @@ for (g in unique(grupos)) {
   }
 }
 
+typst('#seccion("Experiencia previa")')
+for (e in cv$experiencia_previa) {
+  typst("#previa(", s(e$fecha), ", ", s(e$cargo), ", ", s(e$organizacion), ", ", s(e$resumen), ")")
+}
+
 typst('#seccion("Educación")')
 for (f in cv$formacion) {
-  typst("#entrada(", s(f$fecha), ", ", s(f$titulo), ", ", s(f$institucion), ")")
+  typst('#block(below: 6pt)[#text(weight: "bold", ', s(f$titulo), ')#text(fill: gris, [, #',
+        s(f$institucion), ' | #', s(f$fecha), '])]')
 }
 
 typst('#seccion("Habilidades e idiomas")')

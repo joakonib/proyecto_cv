@@ -16,7 +16,7 @@ perfil: >-
   Sociólogo y Magíster en Métodos para la Investigación Social, con más de diez años
   de experiencia en investigación social y cinco en producción estadística oficial
   en el Instituto Nacional de Estadísticas (INE). He participado en tres operaciones
-  estadísticas nacionales —II ENUT, Censo de Población y Vivienda 2024 y VIII EME—
+  estadísticas nacionales —II ENUT (2025), Censo de Población y Vivienda 2024 y VIII EME—
   en programación de
   cuestionarios en Survey Solutions, validación y control de calidad de datos,
   construcción de bases e indicadores y elaboración de documentos técnicos.
@@ -41,11 +41,11 @@ experiencia:
       - "Apoyé los procesos de codificación automática de variables de ocupación."
 
   - fecha: "Octubre 2021 – Marzo 2025"
-    cargo: "Analista Socioeconómico, II Encuesta Nacional sobre Uso del Tiempo (II ENUT)"
+    cargo: "Analista Socioeconómico, II Encuesta Nacional sobre Uso del Tiempo (II ENUT 2025)"
     organizacion: "Instituto Nacional de Estadísticas (INE)"
     tareas:
-      - "Programé el cuestionario en Survey Solutions e hice el seguimiento operativo del levantamiento."
-      - "Construí e integré las bases de datos y trabajé con paradatos."
+      - "Participé en el proceso de producción estadística de la encuesta, incluida la programación y el seguimiento operativo del instrumento en Survey Solutions."
+      - "Construí e integré bases de datos y trabajé con paradatos."
       - "Elaboré productos analíticos para caracterizar los patrones de uso del tiempo y difundir los resultados."
 
   - fecha: "Enero 2020 – Marzo 2022"
@@ -56,47 +56,29 @@ experiencia:
       - "Generé insights y presenté resultados a clientes."
     software: "Excel y R"
 
-  - fecha: "Enero 2019 – Diciembre 2019"
+
+# Cargos anteriores en formato compacto (una línea cada uno)
+experiencia_previa:
+  - fecha: "2019"
     cargo: "Analista de Estudios"
     organizacion: "Eol Research"
-    tareas:
-      - "Limpié y depuré bases de datos."
-      - "Analicé datos transaccionales y de estudios, y redacté informes."
-      - "Coordiné requerimientos y estudios con clientes."
-    software: "Excel, SPSS y R"
-
-  - fecha: "Abril 2018 – Octubre 2018"
+    resumen: "Depuración y análisis de bases de datos transaccionales y de estudios, informes y coordinación con clientes (R, SPSS)."
+  - fecha: "2018"
     cargo: "Marketing Science Analyst"
     organizacion: "MetLife"
-    tareas:
-      - "Coordiné estudios con proveedores y clientes internos de MetLife y AFP ProVida."
-      - "Confeccioné instrumentos, depuré bases de datos y analicé información según la finalidad de cada estudio."
-    software: "Excel, SPSS y R"
-
+    resumen: "Coordinación de estudios para MetLife y AFP ProVida: diseño de instrumentos, depuración y análisis de datos (R, SPSS)."
   - fecha: "2015 y 2017"
     cargo: "Analista de Investigación"
     organizacion: "Fundación Superación de la Pobreza"
-    tareas:
-      - "Participé en el proyecto Comunicación y Pobreza (mayo a octubre de 2015 y de 2017)."
-      - "Recolecté, sistematicé y analicé información de prensa, y realicé la revisión bibliográfica del estudio."
-    software: "Excel y Atlas.ti"
-
-  - fecha: "Marzo 2016 – Febrero 2017"
+    resumen: "Sistematización y análisis de prensa para el proyecto Comunicación y Pobreza (Atlas.ti)."
+  - fecha: "2016 – 2017"
     cargo: "Analista de Estudios"
     organizacion: "Etnográfica Consultora"
-    tareas:
-      - "Diseñé instrumentos según la metodología de cada estudio."
-      - "Analicé y validé información, me reuní con contrapartes y redacté informes."
-    software: "Excel, SPSS y R"
-
-  - fecha: "Septiembre 2014 – Mayo 2015"
+    resumen: "Diseño de instrumentos, análisis y validación de información, e informes para clientes (R, SPSS)."
+  - fecha: "2014 – 2015"
     cargo: "Analista de Estudios"
     organizacion: "Opina S.A."
-    tareas:
-      - "Limpié universos y procesé y analicé bases de datos para informes."
-      - "Coordiné la codificación de preguntas abiertas."
-      - "Llevé la carta Gantt de los proyectos y cargué resultados en dashboards para clientes."
-    software: "Excel y SPSS"
+    resumen: "Procesamiento y análisis de bases de datos, codificación de preguntas abiertas y dashboards de resultados (SPSS)."
 
 formacion:
   - fecha: "2023 – 2025"
