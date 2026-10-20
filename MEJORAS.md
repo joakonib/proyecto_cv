@@ -23,11 +23,10 @@
    - ¿Automatizaste algún proceso manual? ¿Cuánto tiempo ahorró?
    - Codificación automática de ocupación: ¿qué tasa de acierto alcanzó?
    Formato: *verbo + qué + resultado* ("Automaticé en R la validación de X, reduciendo el tiempo de 3 días a 2 horas").
-2. **Agregar ciudad** ("Santiago, Chile") en el encabezado: muchos filtros de ATS usan la ubicación.
-3. **Publicaciones con enlace.** Los documentos técnicos del INE (EME 2025, ENUT, Censo) son públicos: una sección "Publicaciones seleccionadas" es evidencia concreta.
-4. **Tesis de magíster** (título y método) y **docencia/ayudantías**, si las tienes.
-5. **Certificar el inglés** (TOEFL, IELTS o Cambridge) si apuntas a organismos internacionales.
-6. **Tener también una versión .docx**: algunos portales (y Trabajando.com / Laborum) leen mejor Word que PDF. Se puede generar desde el mismo `datos/cv.yml`.
+2. **Publicaciones con enlace.** Los documentos técnicos del INE (EME 2025, ENUT, Censo) son públicos: una sección "Publicaciones seleccionadas" es evidencia concreta.
+3. **Tesis de magíster** (título y método) y **docencia/ayudantías**, si las tienes.
+4. **Certificar el inglés** (TOEFL, IELTS o Cambridge) si apuntas a organismos internacionales.
+5. **Tener también una versión .docx**: algunos portales (y Trabajando.com / Laborum) leen mejor Word que PDF. Se puede generar desde el mismo `datos/cv.yml`.
 
 ## Ideas para la búsqueda de trabajo
 

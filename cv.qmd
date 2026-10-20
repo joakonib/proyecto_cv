@@ -92,7 +92,9 @@ arreglo <- function(x) paste0("(", paste0(vapply(x, s, ""), collapse = ", "), ",
 opcional_sw <- function(e) if (!is.null(e$software)) paste0(", software: ", s(e$software)) else ""
 
 # Encabezado
-contactos <- vapply(cv$contacto, \(c) paste0("link(", s(c$enlace), ", ", s(c$texto), ")"), "")
+contactos <- vapply(cv$contacto, \(c) {
+  if (is.null(c$enlace)) s(c$texto) else paste0("link(", s(c$enlace), ", ", s(c$texto), ")")
+}, "")
 typst(
   '#block(below: 8pt, text(20pt, weight: "bold", ', s(cv$nombre), '))\n',
   '#text(11pt, ', s(cv$titulo), ')\\\n',
