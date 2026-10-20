@@ -1,0 +1,112 @@
+---
+lang: es
+format:
+  typst:
+    papersize: a4
+    margin:
+      x: 1.7cm
+      y: 1.5cm
+    mainfont: "Segoe UI"
+    fontsize: 9.5pt
+    output-file: cv.pdf
+execute:
+  echo: false
+---
+
+```{=typst}
+#let acento = rgb("#1c5cab")
+#let suave = rgb("#52514e")
+#let tenue = rgb("#8a8984")
+
+#set text(fill: rgb("#1a1a1a"), hyphenate: false)
+#set par(justify: true, leading: 0.6em, spacing: 0.6em)
+#set page(footer: context [
+  #set text(7.5pt, fill: tenue)
+  #h(1fr) #counter(page).display("1 / 1", both: true)
+])
+#show link: set text(fill: acento)
+
+#let seccion(titulo) = {
+  v(14pt)
+  block(below: 8pt, {
+    text(10.5pt, weight: "bold", fill: acento, tracking: 0.08em, upper(titulo))
+    v(-2pt)
+    line(length: 100%, stroke: 0.7pt + acento)
+  })
+}
+
+#let etiqueta(t) = box(
+  inset: (x: 5pt, y: 2.5pt), radius: 3pt, fill: acento.lighten(90%),
+  text(7.5pt, fill: acento.darken(10%), t)
+)
+
+#let entrada(fecha, titulo, lugar, cuerpo: none, tags: ()) = block(breakable: false, below: 11pt,
+  grid(
+    columns: (3.1cm, 1fr), column-gutter: 12pt,
+    { set par(justify: false); align(right, text(8.5pt, fill: suave, weight: "medium", fecha)) },
+    {
+      text(weight: "bold", titulo)
+      linebreak()
+      text(fill: acento, lugar)
+      if cuerpo != none {
+        v(3pt)
+        cuerpo
+      }
+      if tags.len() > 0 {
+        v(3pt)
+        tags.map(etiqueta).join(h(4pt))
+      }
+    }
+  )
+)
+```
+
+```{r}
+#| output: asis
+cv <- yaml::read_yaml("datos/cv.yml")
+
+# Convierte texto R en un string literal de Typst
+s <- function(x) paste0('"', gsub('"', '\\\\"', gsub("\\\\", "\\\\\\\\", x)), '"')
+typst <- function(...) cat("```{=typst}\n", ..., "\n```\n\n", sep = "")
+
+# Encabezado
+contactos <- vapply(cv$contacto, \(c) paste0("link(", s(c$enlace), ", ", s(c$texto), ")"), "")
+typst(
+  '#block(below: 12pt, text(24pt, weight: "bold", ', s(cv$nombre), '))\n',
+  '#text(11.5pt, fill: acento, weight: "medium", ', s(cv$titulo), ')\\\n',
+  '#text(9.5pt, fill: suave, ', s(cv$subtitulo), ')\n',
+  '#v(6pt)\n',
+  '#text(9pt, (', paste(contactos, collapse = ", "), ').join(text(fill: tenue, "  ·  ")))\n',
+  '#v(4pt)\n#line(length: 100%, stroke: 0.4pt + rgb("#d9d8d4"))'
+)
+
+# Perfil
+typst('#seccion("Perfil")\n#text(', s(cv$perfil), ')')
+
+# Experiencia
+typst('#seccion("Experiencia laboral")')
+for (e in cv$experiencia) {
+  tags <- paste0("(", paste0(vapply(e$herramientas, s, ""), collapse = ", "), ",)")
+  typst(
+    "#entrada(", s(e$fecha), ", ", s(e$cargo), ", ", s(e$organizacion),
+    ", cuerpo: text(", s(e$descripcion), "), tags: ", tags, ")"
+  )
+}
+
+# Formación
+typst('#seccion("Formación")')
+for (f in cv$formacion) {
+  typst("#entrada(", s(f$fecha), ", ", s(f$titulo), ", ", s(f$institucion), ")")
+}
+
+# Habilidades, en una grilla de dos columnas
+celdas <- vapply(cv$habilidades, \(h) paste0(
+  '[#text(weight: "bold", ', s(h$grupo), ') #v(2pt) #(',
+  paste0(vapply(h$items, s, ""), collapse = ", "), ',).map(etiqueta).join(h(4pt))]'
+), "")
+typst(
+  '#seccion("Habilidades")\n',
+  '#block(breakable: false, grid(columns: (1fr, 1fr), column-gutter: 16pt, row-gutter: 12pt, ',
+  paste(celdas, collapse = ", "), '))'
+)
+```

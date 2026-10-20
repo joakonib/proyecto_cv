@@ -1,0 +1,130 @@
+# Contenido del CV. cv.qmd lo lee y lo convierte en el PDF.
+
+nombre: "Joaquín Enrique Galdames Hernández"
+titulo: "Sociólogo · Magíster en Métodos para la Investigación Social"
+subtitulo: "Metodología de encuestas · Producción estadística · Análisis de datos"
+
+contacto:
+  - texto: "jgaldamesh@gmail.com"
+    enlace: "mailto:jgaldamesh@gmail.com"
+  - texto: "+56 9 8188 7889"
+    enlace: "tel:+56981887889"
+  - texto: "LinkedIn"
+    enlace: "https://www.linkedin.com/in/joaqu%C3%ADn-enrique-galdames/"
+  - texto: "GitHub"
+    enlace: "https://github.com/joakonib"
+
+perfil: >-
+  Sociólogo y Magíster en Métodos para la Investigación Social, con experiencia
+  en diversas operaciones estadísticas del Instituto Nacional de Estadísticas
+  (INE). Especializado en metodología de encuestas, procesamiento, validación y
+  análisis de información. Combino mi curiosidad intelectual con la búsqueda de
+  procesos y soluciones cada vez más eficientes. Mi objetivo es transformar los
+  datos en evidencia que contribuya a la generación de conocimiento y a la toma
+  de decisiones.
+
+experiencia:
+  - fecha: "Oct 2025 – actualidad"
+    cargo: "Analista Socioeconómico"
+    organizacion: "Instituto Nacional de Estadísticas (INE)"
+    descripcion: >-
+      Encuesta de Microemprendimiento (EME): análisis, validación y aseguramiento
+      de la calidad de los datos. Tras la publicación de la versión 2025, elaboración
+      de análisis estadísticos y documentos técnicos sobre las dinámicas del
+      microemprendimiento en Chile, aportando a la mejora continua del instrumento.
+    herramientas: ["R", "Validación de datos", "Documentación técnica"]
+
+  - fecha: "Mar 2025 – Oct 2025"
+    cargo: "Analista Metodológico Senior"
+    organizacion: "Instituto Nacional de Estadísticas (INE)"
+    descripcion: >-
+      Equipo técnico del Censo de Población y Vivienda 2024: edición, validación y
+      control de calidad de datos censales. Elaboración de indicadores y documentos
+      técnicos para la publicación de resultados, y apoyo en la codificación
+      automática de variables de ocupación.
+    herramientas: ["R", "Control de calidad", "Codificación automática"]
+
+  - fecha: "Oct 2021 – Mar 2025"
+    cargo: "Analista Socioeconómico"
+    organizacion: "Instituto Nacional de Estadísticas (INE)"
+    descripcion: >-
+      Producción estadística de la II Encuesta Nacional sobre Uso del Tiempo (ENUT):
+      programación y seguimiento operativo del instrumento en Survey Solutions,
+      construcción e integración de bases de datos, trabajo con paradatos y
+      productos analíticos para caracterizar los patrones de uso del tiempo y
+      difundir los resultados.
+    herramientas: ["Survey Solutions", "R", "Paradatos"]
+
+  - fecha: "Ene 2020 – Mar 2022"
+    cargo: "Consultor Independiente"
+    organizacion: "Clientes de diversos rubros"
+    descripcion: >-
+      Revisión de instrumentos, depuración de bases de datos, análisis de
+      información, generación de insights y presentación de resultados.
+    herramientas: ["R", "Excel"]
+
+  - fecha: "Ene 2019 – Dic 2019"
+    cargo: "Analista de Estudios"
+    organizacion: "Eol Research"
+    descripcion: >-
+      Limpieza y depuración de bases de datos, análisis de datos transaccionales y
+      de estudios, redacción de informes y coordinación de requerimientos con clientes.
+    herramientas: ["R", "SPSS", "Excel"]
+
+  - fecha: "Abr 2018 – Oct 2018"
+    cargo: "Marketing Science Analyst"
+    organizacion: "MetLife"
+    descripcion: >-
+      Coordinación de estudios con proveedores y clientes internos de MetLife y AFP
+      ProVida: diseño de instrumentos, depuración de bases de datos y análisis de
+      información según el objetivo de cada estudio.
+    herramientas: ["R", "SPSS", "Excel"]
+
+  - fecha: "2015 y 2017"
+    cargo: "Analista de Investigación, proyecto Comunicación y Pobreza"
+    organizacion: "Fundación Superación de la Pobreza"
+    descripcion: >-
+      Dos periodos (may–oct 2015 y may–oct 2017): recolección, sistematización y
+      análisis de información de prensa, y revisión bibliográfica para el estudio.
+    herramientas: ["Atlas.ti", "Excel"]
+
+  - fecha: "Mar 2016 – Feb 2017"
+    cargo: "Analista de Estudios"
+    organizacion: "Etnográfica Consultora"
+    descripcion: >-
+      Diseño de instrumentos según la metodología de cada estudio, análisis y
+      validación de información, reuniones con contrapartes y elaboración de informes.
+    herramientas: ["R", "SPSS", "Excel"]
+
+  - fecha: "Sep 2014 – May 2015"
+    cargo: "Analista de Estudios"
+    organizacion: "Opina S.A."
+    descripcion: >-
+      Limpieza de universos, procesamiento y análisis de bases de datos para
+      informes; coordinación de la codificación de preguntas abiertas; carta Gantt
+      de proyectos y carga de resultados en dashboards para clientes.
+    herramientas: ["SPSS", "Excel"]
+
+formacion:
+  - fecha: "2023 – 2025"
+    titulo: "Magíster en Métodos para la Investigación Social"
+    institucion: "Universidad Diego Portales"
+  - fecha: "2017"
+    titulo: "Diplomado en Estadística, mención Minería de Datos"
+    institucion: "Universidad de Santiago de Chile, Facultad de Matemática y Computación"
+  - fecha: "2016"
+    titulo: "Diplomado de Postítulo en Análisis Multivariable"
+    institucion: "Universidad de Chile, Facultad de Ciencias Sociales"
+  - fecha: "2009 – 2013"
+    titulo: "Sociólogo"
+    institucion: "Universidad Diego Portales, Escuela de Sociología"
+
+habilidades:
+  - grupo: "Análisis y programación"
+    items: ["R (avanzado)", "SPSS (avanzado)", "Quarto", "Git y GitHub"]
+  - grupo: "Levantamiento y encuestas"
+    items: ["Survey Solutions", "Diseño de instrumentos", "Paradatos", "Control de calidad"]
+  - grupo: "Ofimática y cualitativo"
+    items: ["Excel (avanzado)", "Word, PowerPoint, Outlook", "Atlas.ti"]
+  - grupo: "Idiomas"
+    items: ["Español (nativo)", "Inglés (avanzado: lectura, conversación y escritura)"]
