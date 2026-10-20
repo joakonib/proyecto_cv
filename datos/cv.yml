@@ -13,88 +13,89 @@ contacto:
     enlace: "https://www.linkedin.com/in/joaqu%C3%ADn-enrique-galdames/"
 
 perfil: >-
-  Sociólogo y Magíster en Métodos para la Investigación Social, con experiencia en
-  diversas operaciones estadísticas del Instituto Nacional de Estadísticas (INE).
-  Especializado en metodología de encuestas, procesamiento, validación y análisis
-  de información. Combino mi curiosidad intelectual con la búsqueda de procesos y
-  soluciones cada vez más eficientes. Mi objetivo es transformar los datos en
-  evidencia para contribuir a la generación de conocimiento y a la toma de decisiones.
+  Sociólogo y Magíster en Métodos para la Investigación Social, con más de diez años
+  de experiencia en investigación social y cinco en producción estadística oficial
+  en el Instituto Nacional de Estadísticas (INE). He participado en tres operaciones
+  estadísticas nacionales —la II Encuesta Nacional sobre Uso del Tiempo, el Censo de
+  Población y Vivienda 2024 y la Encuesta de Microemprendimiento— en programación de
+  cuestionarios en Survey Solutions, validación y control de calidad de datos,
+  construcción de bases e indicadores y elaboración de documentos técnicos.
+  Antes trabajé en consultoras de estudios de opinión y de mercado. Trabajo
+  principalmente en R, buscando procesos más eficientes y reproducibles.
 
 experiencia:
   - fecha: "Octubre 2025 – actualidad"
-    cargo: "Analista Socioeconómico"
+    cargo: "Analista Socioeconómico, Encuesta de Microemprendimiento (EME)"
     organizacion: "Instituto Nacional de Estadísticas (INE)"
     tareas:
-      - "Encuesta de Microemprendimiento (EME): análisis, validación y aseguramiento de la calidad de los datos."
-      - "Tras la publicación de la EME 2025, elaboración de análisis estadísticos y documentos técnicos sobre las dinámicas del microemprendimiento en Chile."
-      - "Contribución a la mejora continua del instrumento estadístico."
+      - "Analizo, valido y aseguro la calidad de los datos de la EME."
+      - "Elaboro análisis estadísticos y documentos técnicos sobre las dinámicas del microemprendimiento en Chile, a partir de la EME 2025."
+      - "Contribuyo a la mejora continua del instrumento estadístico."
 
   - fecha: "Marzo 2025 – Octubre 2025"
-    cargo: "Analista Metodológico Senior"
+    cargo: "Analista Metodológico Senior, Censo de Población y Vivienda 2024 (destinación)"
     organizacion: "Instituto Nacional de Estadísticas (INE)"
     tareas:
-      - "Equipo técnico del Censo de Población y Vivienda 2024: edición, validación y control de calidad de datos censales."
-      - "Elaboración de indicadores y documentos técnicos para la publicación de resultados."
-      - "Apoyo en procesos de codificación automática de variables de ocupación."
+      - "Edité, validé y controlé la calidad de los datos censales como parte del equipo técnico del Censo."
+      - "Elaboré indicadores y documentos técnicos para la publicación de resultados."
+      - "Apoyé los procesos de codificación automática de variables de ocupación."
 
   - fecha: "Octubre 2021 – Marzo 2025"
-    cargo: "Analista Socioeconómico"
+    cargo: "Analista Socioeconómico, II Encuesta Nacional sobre Uso del Tiempo (ENUT)"
     organizacion: "Instituto Nacional de Estadísticas (INE)"
     tareas:
-      - "Producción estadística de la II Encuesta Nacional sobre Uso del Tiempo (ENUT)."
-      - "Programación y seguimiento operativo del instrumento en Survey Solutions."
-      - "Construcción e integración de bases de datos y trabajo con paradatos."
-      - "Productos analíticos para caracterizar los patrones de uso del tiempo y difundir los resultados."
+      - "Programé el cuestionario en Survey Solutions e hice el seguimiento operativo del levantamiento."
+      - "Construí e integré las bases de datos y trabajé con paradatos."
+      - "Elaboré productos analíticos para caracterizar los patrones de uso del tiempo y difundir los resultados."
 
   - fecha: "Enero 2020 – Marzo 2022"
     cargo: "Consultor Independiente"
     organizacion: "Clientes de diverso tipo"
     tareas:
-      - "Revisión de instrumentos, depuración de bases de datos y análisis de información."
-      - "Generación de insights y presentación de resultados."
+      - "Revisé instrumentos, depuré bases de datos y analicé información."
+      - "Generé insights y presenté resultados a clientes."
     software: "Excel y R"
 
   - fecha: "Enero 2019 – Diciembre 2019"
     cargo: "Analista de Estudios"
     organizacion: "Eol Research"
     tareas:
-      - "Limpieza y depuración de bases de datos."
-      - "Análisis de información (datos transaccionales y estudios) y redacción de informes."
-      - "Coordinación de requerimientos y estudios con clientes."
+      - "Limpié y depuré bases de datos."
+      - "Analicé datos transaccionales y de estudios, y redacté informes."
+      - "Coordiné requerimientos y estudios con clientes."
     software: "Excel, SPSS y R"
 
   - fecha: "Abril 2018 – Octubre 2018"
     cargo: "Marketing Science Analyst"
     organizacion: "MetLife"
     tareas:
-      - "Coordinación de estudios con proveedores y clientes internos de MetLife y AFP ProVida."
-      - "Confección de instrumentos, depuración de bases de datos y análisis de información según la finalidad de cada estudio."
+      - "Coordiné estudios con proveedores y clientes internos de MetLife y AFP ProVida."
+      - "Confeccioné instrumentos, depuré bases de datos y analicé información según la finalidad de cada estudio."
     software: "Excel, SPSS y R"
 
   - fecha: "2015 y 2017"
     cargo: "Analista de Investigación"
     organizacion: "Fundación Superación de la Pobreza"
     tareas:
-      - "Proyecto Comunicación y Pobreza (mayo a octubre de 2015 y de 2017)."
-      - "Recolección, sistematización y análisis de información de prensa."
-      - "Recolección bibliográfica para el estudio."
+      - "Participé en el proyecto Comunicación y Pobreza (mayo a octubre de 2015 y de 2017)."
+      - "Recolecté, sistematicé y analicé información de prensa, y realicé la revisión bibliográfica del estudio."
     software: "Excel y Atlas.ti"
 
   - fecha: "Marzo 2016 – Febrero 2017"
     cargo: "Analista de Estudios"
     organizacion: "Etnográfica Consultora"
     tareas:
-      - "Creación de instrumentos según la metodología de cada estudio."
-      - "Análisis y validación de la información, reuniones con contrapartes y realización de informes."
+      - "Diseñé instrumentos según la metodología de cada estudio."
+      - "Analicé y validé información, me reuní con contrapartes y redacté informes."
     software: "Excel, SPSS y R"
 
   - fecha: "Septiembre 2014 – Mayo 2015"
     cargo: "Analista de Estudios"
     organizacion: "Opina S.A."
     tareas:
-      - "Trabajo con bases de datos: limpieza de universos, procesamiento y análisis para informes."
-      - "Coordinación de la codificación de preguntas abiertas."
-      - "Responsable de la carta Gantt y de cargar información en dashboards para presentar resultados a clientes."
+      - "Limpié universos y procesé y analicé bases de datos para informes."
+      - "Coordiné la codificación de preguntas abiertas."
+      - "Llevé la carta Gantt de los proyectos y cargué resultados en dashboards para clientes."
     software: "Excel y SPSS"
 
 formacion:
@@ -109,7 +110,7 @@ formacion:
     institucion: "Universidad de Chile"
   - fecha: "2009 – 2013"
     titulo: "Título de Sociólogo"
-    institucion: "Universidad Diego Portales, Escuela de Sociología"
+    institucion: "Universidad Diego Portales"
 
 habilidades:
   - grupo: "Análisis estadístico"

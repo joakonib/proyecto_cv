@@ -68,7 +68,7 @@ execute:
 
 #let cargo(fecha, titulo, tareas: (), software: none) = block(breakable: false, below: 9pt, inset: (left: 0.9em), {
   text(weight: "bold", style: "italic", titulo)
-  text(fill: gris, [ | #fecha])
+  text(fill: gris, [ | #box(fecha)])
   detalle(tareas, software)
 })
 ```

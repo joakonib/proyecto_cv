@@ -7,7 +7,10 @@
 - **Fecha bajo cada cargo**, junto a la institución, en vez de alineada a la derecha.
 - **Los tres cargos del INE agrupados** bajo un solo empleador (octubre 2021 – actualidad), para mostrar la progresión.
 - **Fundación Superación de la Pobreza en una sola entrada**, en vez de dos idénticas.
-- **Viñetas en vez de párrafos**, manteniendo tu redacción original.
+- **Viñetas que empiezan con verbos** ("Programé", "Validé", "Elaboré"), sin cambiar los hechos.
+- **El Censo como destinación**: se ve la continuidad como Analista Socioeconómico desde 2021 y que te destinaron al Censo como Analista Metodológico Senior.
+- **Nombre de cada encuesta en el título del cargo** (EME, Censo 2024, ENUT): son las palabras clave que buscan los filtros.
+- **Perfil reescrito con hechos concretos**: años de experiencia, las tres operaciones estadísticas y tus herramientas, en vez de frases genéricas.
 - **Archivo `CV_Joaquin_Galdames.pdf`**: es el nombre que ve quien lo descarga.
 
 ## Cosas que te propongo cambiar (necesitan tu decisión o datos que solo tú tienes)
@@ -18,14 +21,12 @@
    - ¿Automatizaste algún proceso manual? ¿Cuánto tiempo ahorró?
    - Codificación automática de ocupación: ¿qué tasa de acierto alcanzó?
    Formato: *verbo + qué + resultado* ("Automaticé en R la validación de X, reduciendo el tiempo de 3 días a 2 horas").
-2. **Empezar las viñetas con verbos** ("Validé", "Programé", "Elaboré") en vez de sustantivos ("Elaboración de…"). Se lee más activo y es el estándar en selección.
-3. **Perfil más corto y específico.** "Combino mi curiosidad intelectual…" no aporta información verificable; mejor 2–3 líneas con años de experiencia y especialidad ("Más de 10 años en investigación social y 4 en producción estadística oficial…"), ajustadas a cada postulación.
-4. **Agregar ciudad** ("Santiago, Chile") en el encabezado: muchos filtros de ATS usan la ubicación.
-5. **Publicaciones con enlace.** Los documentos técnicos del INE (EME 2025, ENUT, Censo) son públicos: una sección "Publicaciones seleccionadas" es evidencia concreta.
-6. **Tesis de magíster** (título y método) y **docencia/ayudantías**, si las tienes.
-7. **Resumir la experiencia 2014–2017** a una línea por cargo, para que el CV quepa en una página y media y el foco quede en el INE.
-8. **Certificar el inglés** (TOEFL, IELTS o Cambridge) si apuntas a organismos internacionales.
-9. **Tener también una versión .docx**: algunos portales (y Trabajando.com / Laborum) leen mejor Word que PDF. Se puede generar desde el mismo `datos/cv.yml`.
+2. **Agregar ciudad** ("Santiago, Chile") en el encabezado: muchos filtros de ATS usan la ubicación.
+3. **Publicaciones con enlace.** Los documentos técnicos del INE (EME 2025, ENUT, Censo) son públicos: una sección "Publicaciones seleccionadas" es evidencia concreta.
+4. **Tesis de magíster** (título y método) y **docencia/ayudantías**, si las tienes.
+5. **Resumir la experiencia 2014–2017** a una línea por cargo, para que el CV quepa en una página y media y el foco quede en el INE.
+6. **Certificar el inglés** (TOEFL, IELTS o Cambridge) si apuntas a organismos internacionales.
+7. **Tener también una versión .docx**: algunos portales (y Trabajando.com / Laborum) leen mejor Word que PDF. Se puede generar desde el mismo `datos/cv.yml`.
 
 ## Ideas para la búsqueda de trabajo
 
